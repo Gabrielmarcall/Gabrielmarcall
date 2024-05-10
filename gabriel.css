@@ -1,0 +1,40 @@
+body{
+    animation: 5s piscapisca infinite;
+    text-align: center;
+background-color: rgba(255, 255, 255, 0.164);
+}
+@keyframes piscapisca{
+    1%{
+        background-color: rgb(122, 121, 122);
+}
+50%{
+    background-color: rgb(67, 71, 71);
+}
+100%{
+    background-color: rgb(58, 56, 56);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+#thors{
+    color: rgb(240, 9, 136);
+}
+#askeladd{
+    color: rgb(243, 0, 0);   
+}
+.thorkell{
+    color: rgb(1, 49, 180);  
+}
+
+
