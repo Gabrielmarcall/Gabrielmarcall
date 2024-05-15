@@ -1,0 +1,101 @@
+
+h1{
+    font-size: 100px;
+    border: 100px;
+    border: blue;
+    text-align: center;
+   }
+   .bordered-list {
+       border: 2px solid #a00313;
+       padding: 10px;
+       list-style: none;
+   }
+   .bordered-list li {
+       padding: 5px 0;
+       border-bottom: 1px solid #dc3545;
+   }
+   .bordered-list li:last-child {
+       border-bottom: none;
+   }
+   li{
+       margin: 10px 0;
+       padding: 15px;
+       background-color: #878894;
+       border: 1px solid #ffffff;
+       border-radius: 8px;
+       transition: background-color 0.3s, box-shadow 0.3s;
+       position: relative;
+   }
+   li:hover{
+       background-color: #f1f1f1;
+       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   ul li::before{
+       content: counter(list-counter) '.';
+       color: #0056b3;
+       font-weight: bold;
+       margin-right: 10px;
+   }
+   body{
+   background-image: url(https://xxboxnews.blob.core.windows.net/prod/sites/2/2023/10/XV2_New_KeyArt_1920x1080-ab5b5a8964f246d2d49a.jpg);
+   }
+   .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #7a0397;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #7c39bb;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #093d74;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #083b72;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ffffff;
+}
