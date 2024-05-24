@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+p{
+    color: white;
+}
+@media (max-width: 500px){
+    body{
+        background-color: rgb(240, 240, 240);
+    }
+    p{
+        color: rgb(0, 0, 0);
+    }
+}
