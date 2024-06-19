@@ -1,13 +1,7 @@
-var nome = "gabriel"
-var idade = "17"
-var salario = "2980"
-
-document.write(nome + "<br>")+
-document.write(idade)
-document.write(salario)
-
-console.log(nome)
-
-alert(idade)
-var meunome = prompt("qual seu nome: ")
-alert("meu nome é " + meunome)
+var km = Number(prompt("que velecidade vc estava?"))
+if( km >=40 && km <60){
+    alert("velocidade ideal")
+}
+else if(km>=120){
+    alert("multado")
+}
